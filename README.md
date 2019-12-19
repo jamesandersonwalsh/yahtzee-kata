@@ -1,7 +1,17 @@
 # Yahtzee Kata
 NodeJS starter for Yahtzee Kata from Coding Dojo
 
-## Problem Description
+## Usage 🚀
+To run the tests
+```
+npm run test
+```
+To run the tests in watch mode
+```
+npm run test:watch
+```
+
+## Problem Description 🤔
 
 The game of yahtzee is a simple dice game. Each round, each player rolls five six sided dice. The player may choose to reroll some or all of the dice up to three times (including the original roll). The player then places the roll at a category, such as ones, twos, sixes, pair, two pairs etc. If the roll is compatible with the score, the player gets a score for this roll according to the rules. If the roll is not compatible, the player gets a score of zero for this roll.
 

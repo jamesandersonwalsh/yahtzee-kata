@@ -4,7 +4,6 @@
   "description": "NodeJS starter for Yahtzee Kata from Coding Dojo",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
     "test": "mocha ./src/**/*.test.js",
     "test:watch": "npm test -- --watch"
   },
