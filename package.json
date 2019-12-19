@@ -1,0 +1,22 @@
+{
+  "name": "yahtzee-kata",
+  "version": "1.0.0",
+  "description": "NodeJS starter for Yahtzee Kata from Coding Dojo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha ./src/**/*.test.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimboslicethat/yahtzee-kata.git"
+  },
+  "author": "James Walsh <jamesandersonwalsh@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jimboslicethat/yahtzee-kata#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
