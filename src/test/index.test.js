@@ -2,12 +2,14 @@ const expect = require('chai').expect
 
 const subject = require('../index')
 
-describe('test examples to delete', () => {
-  it('should be able to pass', () => {
-    expect(true).to.be.true
-  })
 
-  it('should be able to fail', () => {
-    expect(true).to.be.false
+describe('Yahtzee', () => {
+  context('Given Ones, Twos, Threes, Fours, Fives, Sixes', () => {
+    it('returns the sum of all numbers', () => {
+      const diceRoll = [1,2,3,4,5,6]
+      
+      // @TODO: Replace this assertion with the expected behavior.
+      expect(() => subject(diceRoll)).to.not.throw()
+    })
   })
 })
