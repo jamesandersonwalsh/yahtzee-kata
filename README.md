@@ -25,9 +25,17 @@ The following categories exists:
 - **Two pairs:** If there are two pairs of dice with the same number, the player scores the sum of these dice. If not, the player scores 0. For example, 1, 1, 2, 3, 3 placed on “two pairs” gives 8.
 - **Three of a kind:** If there are three dice with the same number, the player scores the sum of these dice. Otherwise, the player scores 0. For example, 3, 3, 3, 4, 5 places on “three of a kind” gives 9.
 - **Four of a kind:** If there are four dice with the same number, the player scores the sum of these dice. Otherwise, the player scores 0. For example, 2, 2, 2, 2, 5 places on “four of a kind” gives 8.
-- **Small straight:** If the dice read 1,2,3,4,5, the player scores 15 (the sum of all the dice), otherwise 0.
-- **Large straight:** If the dice read 2,3,4,5,6, the player scores 20 (the sum of all the dice), otherwise 0.
-- **Full house:** If the dice are two of a kind and three of a kind, the player scores the sum of all the dice. For example, 1,1,2,2,2 placed on “full house” gives 8. 4,4,4,4,4 is not “full house”.
+- **Small straight:** A Straight is a sequence of consecutive die faces, where a small straight is 4 consecutive faces.
+Small straights scores 30 points, otherwize zero.
+So if you rolled:
+2 - 3 - 2 - 5 - 4
+you could score 30 in small straight.
+- **Large straight:** A Straight is a sequence of consecutive die faces, where a large straight is 5 consecutive faces.
+Large straights 40 points, otherwise zero.
+So if you rolled:
+2 - 3 - 2 - 5 - 4
+You could score 0 in large straight.
+- **Full house:** If the dice are two of a kind and three of a kind, the player scores 25 points.
 - **Yahtzee:** If all dice are the have the same number, the player scores 50 points, otherwise 0.
 - **Chance:** The player gets the sum of all dice, no matter what they read.
 
